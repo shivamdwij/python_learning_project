@@ -8,5 +8,5 @@ def factorial(x):
         return x*(factorial(x-1))
 
 result=factorial(6)
-print(result)   # print factorial of 6
+print(result)   # print factorial of 6, few more.....
 
