@@ -1,15 +1,24 @@
 # oops learning
-class teddy_bear:   #class is defined
-    def __init__(self,name,color):   #defining Instance Attributes
-        self.name=name
-        self.color=color
+
+class bulb: #bulb
+    def __init__(self,watt,type): # object
+        self.watt=watt  
+        self.type=type
+
+    def change_type(self,type):
+        print("This is method initiation")
+        self.type=type
 
 
-teddy1=teddy_bear("ted","red")
-teddy2=teddy_bear("rob","yellow")
-print(teddy1.name)
-print(teddy1.color)
-print(teddy2.name)
-print(teddy2.color)
+bulb1=bulb(100,"LED")
+print(bulb1.watt)
+print(bulb1.type)
+
+bulb1.change_type("Filament")
+print(bulb1.type)
+
+
+
+    
 
 
