@@ -137,5 +137,5 @@ def main(url_sent1):
 
  print(response)
 
-main(uploaded_image)
+main(uploaded_image) #Added to github account
 
