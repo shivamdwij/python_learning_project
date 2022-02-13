@@ -1,6 +1,6 @@
 # oops learning
 class teddy_bear:   #class is defined
-    def __init__(self,name,color):
+    def __init__(self,name,color):   #defining Instance Attributes
         self.name=name
         self.color=color
 
