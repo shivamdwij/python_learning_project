@@ -15,11 +15,11 @@ student1=Student("","")
 student1.get_data()
 student1.print_data()
 
-class Science_student(Student):
+class Science_student(Student):    # Inherited class
     def science(self):
         print("This is inheritance")
 
-a=Science_student("","")
+a=Science_student("","")        # object of inherited class
 a.get_data()
 a.print_data()
 
