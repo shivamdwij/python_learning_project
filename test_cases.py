@@ -9,7 +9,7 @@ print("Shivam {f} {a} {g} {b}".format(f='is',a='a',g='good',b='boy')) # .format 
 #print("Suvidha {} {} {} {}".format ())
 result=107.29287627
 print("This is the result {r:2.3f}".format(r=result))   # r is variable assinged, 2 is space from the string, 3 is for permissble decimal values, f for string formatting
-
+print("Python {a}".format(a="rules!"))
 name="shivam"
 age=29
 color="brown"
