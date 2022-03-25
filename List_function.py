@@ -23,3 +23,6 @@ print(shivam)  #At is deleted here
 alpha_b=["b","a","d","c"]
 alpha_b.sort()
 print(alpha_b)  # sort the list in the alphabetical order
+
+alpha_b.reverse()
+print(alpha_b)
