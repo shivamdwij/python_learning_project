@@ -6,4 +6,4 @@ print(frame)
 
 from pandas import Series
 s1 = Series(['Apple','Banana','Manago'], index=['a','b','c'])
-print(s1)
+print(s1) 
