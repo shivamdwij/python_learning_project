@@ -42,7 +42,7 @@ while a < 10:
 
 # Operators
 
-# range operator  - range is actually a generator that genrates values.
+# range operator  - range is actually a generator that genrates values.git 
 
 for num in range(1,11):
     print(num)
