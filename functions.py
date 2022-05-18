@@ -31,7 +31,7 @@ print(result)
 # create a function to return all even numbers in a list
 
 def create_list_even_no(num):
-    even_list = []
+    even_list = []             # this is an empty list, also know as placeholder list
     for temp in num:
         if temp%2==0:
             even_list.append(temp)   # This will append the even number to the even_list 
@@ -39,8 +39,32 @@ def create_list_even_no(num):
             pass    # This pass is ensuring we are not coming out of the loop unless we are getting an even number or the end of the list
     return even_list
 
-result1=create_list_even_no([1,3,5,8,10,12])
+result1=create_list_even_no([1,3,5,8,10,12,14])
 print(result1)
+
+
+#----------------------Tupples unpacking with function-----------------------
+
+# we need to find out which is giving maximum number of hours to our company
+
+work_hours=[('shivam',1000),('suvidha',200),('mrity',400)]
+
+def employee_check(work_hours):
+    current_max=0
+    employee_name=''
+    for employee,hours in work_hours:
+        if hours>current_max:
+            current_max=hours
+            employee_name=employee
+        else:
+            pass
+    return (employee_name,current_max)
+
+final_list=employee_check(work_hours)
+name,hours=employee_check(work_hours)    # unpacking the results 
+print(final_list)
+print(name)                              # unpacked results
+print(hours)                             # unpacked results
 
 
 
