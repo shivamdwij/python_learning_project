@@ -24,8 +24,7 @@ def check_even(num):
             return True
         else:
             pass
-
-result=check_even([1,2,3,4,5,5,6,7,8,9,10])
+result=check_even([10,12,14,16])
 print(result)
 
 # create a function to return all even numbers in a list
