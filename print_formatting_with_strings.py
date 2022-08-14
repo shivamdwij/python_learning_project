@@ -22,3 +22,17 @@ print('result--> ' + mystring)
 mystring='My {a} {b} {c}'.format(a='name',b='is',c='Shivam')
 print("Final Result --> " + mystring)
 
+#sepcial concept:-
+# Float formatting flows
+#syntax:- "The output is {value:width.precision f}".format(f='result'), --> width is the space between string and output
+
+result=100/777
+mystring="The output is {r:5.3f}".format(r=result)
+print(mystring)
+
+#way 4 :- formatted string literals refer to #2 on the top of page
+
+name='Shivam Trivedi'
+mystring=(f'My name is {name}')  # this is in new python 3.6 and higher versions
+print(mystring)
+
