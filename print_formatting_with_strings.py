@@ -27,8 +27,8 @@ print("Final Result --> " + mystring)
 #syntax:- "The output is {value:width.precision f}".format(f='result'), --> width is the space between string and output
 
 result=100/777
-mystring="The output is {r:5.3f}".format(r=result)
-print(mystring)
+mystring="The output is {r:10.4f}".format(r=result)   # here is 10 represents the gap between both the strings and 4f represents the allowed values after decimal
+print("this is it" + mystring)
 
 #way 4 :- formatted string literals refer to #2 on the top of page
 

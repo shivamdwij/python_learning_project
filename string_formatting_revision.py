@@ -5,7 +5,7 @@ print(mystring)
 # indexing 
 
 mystring="My name is Shivam"
-print(mystring[3])
+print(mystring[4])
 
 #let try to print 'm' from Shivam
 
